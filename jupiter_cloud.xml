@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="validationErrors">
+    <classes>
+      <class name="ContactpageTests.TC001_ValidateContactpage"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="SuccessfulSubmission">
+    <classes>
+      <class name="ContactpageTests.TC002_ValidateSuccessMessage"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="InvalidData">
+    <classes>
+      <class name="ContactpageTests.TC003_InvalideData"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="CartValidation">
+    <classes>
+      <class name="ShopTests.TC001_validateCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
